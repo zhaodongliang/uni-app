@@ -1,16 +1,31 @@
+/*
+ * @Author: Z
+ * @Date: 2020-01-13 16:49:30
+ * @LastEditTime : 2020-01-13 17:35:47
+ * @FilePath: \my-projectf:\project\project-uni\sjzb-app\src\pages.json
+ */
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+			"path": "pages/home/home",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"backgroundColor":"#F8F8F8",
+				"mp-weixin":{
+					"navigationStyle": "custom"
+				},
+				"h5":{
+					"titleNView": {
+						"backgroundColor":"#f8f8f8",
+						"titleText": "首页",
+						"titleColor":"#333"
+					}
+				}
 			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"backgroundColor": "#ffffff"
 	}
 }
